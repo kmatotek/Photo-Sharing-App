@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        ZStack {
+            Color(.brown)
+                .ignoresSafeArea()
+            VStack {
+                Image("poopyDoop")
+                    .resizable()
+                    .cornerRadius(30)
+                    .aspectRatio(contentMode: .fit)
+                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                Text("My Lockcreen!")
+                    .font(.title)
+                    .fontWeight(.bold)
+            }
+            
         }
-        .padding()
     }
 }
 
