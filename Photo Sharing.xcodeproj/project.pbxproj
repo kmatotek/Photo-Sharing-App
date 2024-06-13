@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D20535B52C1B617E001E1923 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535B42C1B617E001E1923 /* Camera.swift */; };
+		D20535BA2C1B6568001E1923 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535B92C1B6568001E1923 /* CameraViewController.swift */; };
+		D20535BC2C1B7136001E1923 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */; };
+		D28722BF2C06BB9C001B128F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28722BE2C06BB9C001B128F /* Login.swift */; };
 		D2B2B88A2C05576700D8D880 /* Photo_SharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */; };
 		D2B2B88C2C05576700D8D880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2B88B2C05576700D8D880 /* ContentView.swift */; };
 		D2B2B88E2C05576800D8D880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2B88D2C05576800D8D880 /* Assets.xcassets */; };
 		D2B2B8912C05576800D8D880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2B8902C05576800D8D880 /* Preview Assets.xcassets */; };
+		D2D80FBA2C08D31C00E7EB45 /* Create Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D80FB92C08D31C00E7EB45 /* Create Account.swift */; };
+		D2D80FBC2C08DC4000E7EB45 /* FirstPageEver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D20535B42C1B617E001E1923 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		D20535B82C1B647D001E1923 /* Photo-Sharing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Photo-Sharing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D20535B92C1B6568001E1923 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		D28722BE2C06BB9C001B128F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D2B2B8862C05576700D8D880 /* Photo Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_SharingApp.swift; sourceTree = "<group>"; };
 		D2B2B88B2C05576700D8D880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2B2B88D2C05576800D8D880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B2B8902C05576800D8D880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2D80FB92C08D31C00E7EB45 /* Create Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Account.swift"; sourceTree = "<group>"; };
+		D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageEver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		D2B2B8882C05576700D8D880 /* Photo Sharing */ = {
 			isa = PBXGroup;
 			children = (
+				D20535B82C1B647D001E1923 /* Photo-Sharing-Info.plist */,
 				D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */,
+				D20535B92C1B6568001E1923 /* CameraViewController.swift */,
+				D20535B42C1B617E001E1923 /* Camera.swift */,
+				D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */,
 				D2B2B88B2C05576700D8D880 /* ContentView.swift */,
+				D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */,
+				D2D80FB92C08D31C00E7EB45 /* Create Account.swift */,
+				D28722BE2C06BB9C001B128F /* Login.swift */,
 				D2B2B88D2C05576800D8D880 /* Assets.xcassets */,
 				D2B2B88F2C05576800D8D880 /* Preview Content */,
 			);
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D80FBA2C08D31C00E7EB45 /* Create Account.swift in Sources */,
+				D28722BF2C06BB9C001B128F /* Login.swift in Sources */,
+				D20535B52C1B617E001E1923 /* Camera.swift in Sources */,
 				D2B2B88C2C05576700D8D880 /* ContentView.swift in Sources */,
+				D20535BA2C1B6568001E1923 /* CameraViewController.swift in Sources */,
 				D2B2B88A2C05576700D8D880 /* Photo_SharingApp.swift in Sources */,
+				D2D80FBC2C08DC4000E7EB45 /* FirstPageEver.swift in Sources */,
+				D20535BC2C1B7136001E1923 /* CameraViewWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +301,12 @@
 				DEVELOPMENT_TEAM = JAMYL79GFY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Sharing-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,10 +333,12 @@
 				DEVELOPMENT_TEAM = JAMYL79GFY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Photo-Sharing-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (

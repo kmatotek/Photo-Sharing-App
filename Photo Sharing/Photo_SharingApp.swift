@@ -11,7 +11,8 @@ import SwiftUI
 struct Photo_SharingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            CameraViewWrapper()
         }
     }
 }
