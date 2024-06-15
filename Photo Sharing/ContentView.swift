@@ -20,12 +20,25 @@ struct ContentView: View {
                     .aspectRatio(contentMode: .fit)
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 Text("My Lockcreen!")
-                    .font(.title)
+                    .font(.custom("Quicksand-Bold", size: 20))
                     .fontWeight(.bold)
             }
             
         }
     }
+     /**
+        init(){
+            for familyName in UIFont.familyNames {
+                print(familyName)
+                
+                for fontName in UIFont.fontNames(forFamilyName: familyName){
+                    print("-- \(fontName)")
+                }
+                
+            }
+        }
+    **/
+    
 }
 
 #Preview {

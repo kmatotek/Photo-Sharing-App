@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D20535B52C1B617E001E1923 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535B42C1B617E001E1923 /* Camera.swift */; };
 		D20535BA2C1B6568001E1923 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535B92C1B6568001E1923 /* CameraViewController.swift */; };
 		D20535BC2C1B7136001E1923 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */; };
+		D27B19312C1E38A8007F2579 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27B192D2C1E38A8007F2579 /* Quicksand-Regular.ttf */; };
+		D27B19322C1E38A8007F2579 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27B192E2C1E38A8007F2579 /* Quicksand-SemiBold.ttf */; };
+		D27B19332C1E38A8007F2579 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27B192F2C1E38A8007F2579 /* Quicksand-Bold.ttf */; };
+		D27B19342C1E38A8007F2579 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D27B19302C1E38A8007F2579 /* Quicksand-Light.ttf */; };
 		D28722BF2C06BB9C001B128F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28722BE2C06BB9C001B128F /* Login.swift */; };
 		D2B2B88A2C05576700D8D880 /* Photo_SharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */; };
 		D2B2B88C2C05576700D8D880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B2B88B2C05576700D8D880 /* ContentView.swift */; };
@@ -20,10 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D20535B42C1B617E001E1923 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		D20535B82C1B647D001E1923 /* Photo-Sharing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Photo-Sharing-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D20535B92C1B6568001E1923 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		D27B192D2C1E38A8007F2579 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		D27B192E2C1E38A8007F2579 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		D27B192F2C1E38A8007F2579 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		D27B19302C1E38A8007F2579 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		D28722BE2C06BB9C001B128F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D2B2B8862C05576700D8D880 /* Photo Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_SharingApp.swift; sourceTree = "<group>"; };
@@ -45,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D27B192C2C1E3873007F2579 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D27B192F2C1E38A8007F2579 /* Quicksand-Bold.ttf */,
+				D27B19302C1E38A8007F2579 /* Quicksand-Light.ttf */,
+				D27B192D2C1E38A8007F2579 /* Quicksand-Regular.ttf */,
+				D27B192E2C1E38A8007F2579 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		D2B2B87D2C05576700D8D880 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +81,10 @@
 		D2B2B8882C05576700D8D880 /* Photo Sharing */ = {
 			isa = PBXGroup;
 			children = (
+				D27B192C2C1E3873007F2579 /* Fonts */,
 				D20535B82C1B647D001E1923 /* Photo-Sharing-Info.plist */,
 				D2B2B8892C05576700D8D880 /* Photo_SharingApp.swift */,
 				D20535B92C1B6568001E1923 /* CameraViewController.swift */,
-				D20535B42C1B617E001E1923 /* Camera.swift */,
 				D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */,
 				D2B2B88B2C05576700D8D880 /* ContentView.swift */,
 				D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */,
@@ -146,7 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B2B8912C05576800D8D880 /* Preview Assets.xcassets in Resources */,
+				D27B19322C1E38A8007F2579 /* Quicksand-SemiBold.ttf in Resources */,
+				D27B19312C1E38A8007F2579 /* Quicksand-Regular.ttf in Resources */,
+				D27B19342C1E38A8007F2579 /* Quicksand-Light.ttf in Resources */,
 				D2B2B88E2C05576800D8D880 /* Assets.xcassets in Resources */,
+				D27B19332C1E38A8007F2579 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +180,6 @@
 			files = (
 				D2D80FBA2C08D31C00E7EB45 /* Create Account.swift in Sources */,
 				D28722BF2C06BB9C001B128F /* Login.swift in Sources */,
-				D20535B52C1B617E001E1923 /* Camera.swift in Sources */,
 				D2B2B88C2C05576700D8D880 /* ContentView.swift in Sources */,
 				D20535BA2C1B6568001E1923 /* CameraViewController.swift in Sources */,
 				D2B2B88A2C05576700D8D880 /* Photo_SharingApp.swift in Sources */,
