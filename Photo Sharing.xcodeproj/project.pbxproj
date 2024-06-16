@@ -20,6 +20,8 @@
 		D2B2B8912C05576800D8D880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B2B8902C05576800D8D880 /* Preview Assets.xcassets */; };
 		D2D80FBA2C08D31C00E7EB45 /* Create Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D80FB92C08D31C00E7EB45 /* Create Account.swift */; };
 		D2D80FBC2C08DC4000E7EB45 /* FirstPageEver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */; };
+		D2F6AB802C1F58BC009FF289 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6AB7F2C1F58BC009FF289 /* BottomBarView.swift */; };
+		D2F6AB822C1F5CA5009FF289 /* BottomBarViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F6AB812C1F5CA5009FF289 /* BottomBarViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		D2B2B8902C05576800D8D880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2D80FB92C08D31C00E7EB45 /* Create Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Account.swift"; sourceTree = "<group>"; };
 		D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageEver.swift; sourceTree = "<group>"; };
+		D2F6AB7F2C1F58BC009FF289 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		D2F6AB812C1F5CA5009FF289 /* BottomBarViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				D20535B92C1B6568001E1923 /* CameraViewController.swift */,
 				D20535BB2C1B7136001E1923 /* CameraViewWrapper.swift */,
 				D2B2B88B2C05576700D8D880 /* ContentView.swift */,
+				D2F6AB812C1F5CA5009FF289 /* BottomBarViewWrapper.swift */,
+				D2F6AB7F2C1F58BC009FF289 /* BottomBarView.swift */,
 				D2D80FBB2C08DC4000E7EB45 /* FirstPageEver.swift */,
 				D2D80FB92C08D31C00E7EB45 /* Create Account.swift */,
 				D28722BE2C06BB9C001B128F /* Login.swift */,
@@ -181,6 +187,8 @@
 				D2D80FBA2C08D31C00E7EB45 /* Create Account.swift in Sources */,
 				D28722BF2C06BB9C001B128F /* Login.swift in Sources */,
 				D2B2B88C2C05576700D8D880 /* ContentView.swift in Sources */,
+				D2F6AB802C1F58BC009FF289 /* BottomBarView.swift in Sources */,
+				D2F6AB822C1F5CA5009FF289 /* BottomBarViewWrapper.swift in Sources */,
 				D20535BA2C1B6568001E1923 /* CameraViewController.swift in Sources */,
 				D2B2B88A2C05576700D8D880 /* Photo_SharingApp.swift in Sources */,
 				D2D80FBC2C08DC4000E7EB45 /* FirstPageEver.swift in Sources */,

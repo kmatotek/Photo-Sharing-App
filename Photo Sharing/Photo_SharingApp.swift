@@ -13,6 +13,7 @@ struct Photo_SharingApp: App {
         WindowGroup {
             //ContentView()
             CameraViewWrapper()
+            //BottomBarView()
         }
     }
 }
