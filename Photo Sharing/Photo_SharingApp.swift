@@ -12,8 +12,9 @@ struct Photo_SharingApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            CameraViewWrapper()
+            //CameraViewWrapper()
             //BottomBarView()
+            CameraView()
         }
     }
 }

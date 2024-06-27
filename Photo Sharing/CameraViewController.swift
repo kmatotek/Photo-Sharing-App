@@ -47,12 +47,10 @@ class CameraViewController: UIViewController {
 
     private var imageView: UIImageView?
     private let bottomBar = BottomBarView()
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
-        edgesForExtendedLayout = .all // Ensure camera view extends under status bar and navigation bar if present
         view.layer.addSublayer(previewLayer)
         view.addSubview(shutterButton)
         view.addSubview(closeButton)
@@ -70,16 +68,23 @@ class CameraViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
-        // Adjust preview layer frame to fill the view's bounds
-        previewLayer.frame = view.bounds
+        let safeAreaInsets = view.safeAreaInsets
+
+        // Adjust preview layer frame to fill the view's bounds, ignoring safe area insets
+        previewLayer.frame = CGRect(
+            x: 0,
+            y: 0,
+            width: view.bounds.width,
+            height: view.bounds.height + safeAreaInsets.bottom
+        )
         applyCornerMask(to: previewLayer)
 
         // Position shutter button at the bottom center
-        shutterButton.center = CGPoint(x: view.bounds.midX, y: view.bounds.maxY - 100)
+        shutterButton.center = CGPoint(x: view.bounds.midX, y: view.bounds.maxY - 100 - safeAreaInsets.bottom)
 
         // Position bottom bar at the bottom of the view
         let bottomBarHeight: CGFloat = 60
-        bottomBar.frame = CGRect(x: 0, y: view.bounds.maxY - bottomBarHeight, width: view.bounds.width, height: bottomBarHeight)
+         bottomBar.frame = CGRect(x: 0, y: view.bounds.height - bottomBarHeight, width: view.bounds.width, height: bottomBarHeight)
     }
 
     private func checkCameraPermissions() {
